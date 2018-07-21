@@ -9,8 +9,22 @@
 	font-family: arial, georgia, veranda;
 	font-size: 15px;
 	line-height: 25px;
-	color: #666;
+	color: #D6B9AD;
 }
+
+#reuben{
+	background-color: #77878B;
+	color: white;
+}
+
+html, body{
+	background-color: #E9EBF8;
+	max-width: 100%;
+	overflow-x: hidden;
+
+}
+
+
 
 
 .guide{
@@ -43,7 +57,7 @@
 /*For Landing Contents*/
 #fade{
 	/*background-color: grey;*/
-	min-height: 300px;
+	height: 100%;
 	margin: auto;
 	background-color: rgba(204, 204, 255, 0.6);
 	border-radius: 25px;
@@ -83,18 +97,25 @@
 #desc, #myname{
 	margin: 0;
 	text-align: center;
-	color: black;
+	color: #364652;
 }
 
 #expound{
 	text-align: justify;
 	margin-left: 15px;
 	margin-right: 15px;
-	color: black;
+	color:  #364652;
+}
+
+.lbl{
+	color:  #364652;
 }
 
 
 #container2{
+	/*background-color: #F4E7E3;*/
+	background-color: #364652;
+
 
 }
 
@@ -121,6 +142,9 @@ table{
 	
 }
 
+.project-margin{
+	margin-bottom: 20px;
+}
 
 .wor{
 	margin-left: 30px;
@@ -135,9 +159,56 @@ table{
 }
 
 
+/*contact*/
+#space{
+	height: 10px;
+}
+
+#formbg{
+	/*background-color: grey;*/
+	min-height: 300px;
+	width: 100%;
+	background-color: rgba(204, 204, 255, 0.6);
+	border-radius: 20px;
+}
+
+#pro-pic{
+	height: 200px;
+	width: 100%;
+}
+
+textarea{
+	resize: none;
+}
+
+.icon-soc{
+	height: 7px;
+	padding:10px;
+}
+
+footer, small{
+	text-align: center;
+	background-color: #0F121C;
+	color: #FFFFFF;
+}
+
+
+.site-desc{
+	color:  #364652;
+	text-align: justify;
+}
+
+
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+	#fade{
+		margin: auto 10px;
+	}
 
+	.icon-soc{
+		height: 7px;
+		padding:7px;
+	}
 }
 
  /*Small devices (landscape phones, 576px and up)*/
@@ -147,7 +218,9 @@ table{
 
  /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-
+	#fade{
+		margin: auto 50px;
+	}
 }
 
  /*Large devices (desktops, 992px and up)*/
