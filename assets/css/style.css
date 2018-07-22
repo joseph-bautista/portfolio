@@ -87,6 +87,10 @@ html, body{
 
 }
 
+#myname, #job{
+	font-weight: bold;
+}
+
 #logo{
 	max-height: 25px;
 	max-width: 25px;
