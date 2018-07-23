@@ -12,6 +12,7 @@
 	color: #D6B9AD;
 }
 
+
 #reuben{
 	background-color: #77878B;
 	color: white;
@@ -24,7 +25,10 @@ html, body{
 
 }
 
+.nav-text:hover{
+	background-color: white;
 
+}
 
 
 .guide{
