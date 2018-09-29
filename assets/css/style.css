@@ -9,64 +9,86 @@
 	font-family: arial, georgia, veranda;
 	font-size: 15px;
 	line-height: 25px;
-	color: #D6B9AD;
+	/*color: #D6B9AD;*/
 }
 
 
 #reuben{
 	background-color: #77878B;
-	color: white;
+	/*color: white;*/
+	height: 100px;
+	background-color:  rgba(75, 75, 75, 0.9);
 }
 
 html, body{
-	background-color: #E9EBF8;
+	/*background-color: #E9EBF8;*/
 	max-width: 100%;
 	overflow-x: hidden;
 
 }
 
 .nav-text:hover{
-	background-color: white;
-
+	background-color: #FFFFF0;
+	border-radius: 10px;
+	padding: 10px;
 }
 
+.active{
+	background-color: #FFFFF0;
+	border-radius: 10px;
+}
 
-.guide{
-	/*border: 5px solid black;*/
-	
+.nav-link{
+	font-size: 20px;
+	font-weight: bold;
+	/*padding: 5px;*/
+	margin: 5px;
+
 }
 
 #landing{
 	min-height: 100vh;
 	/*background-color: green;*/
 	 /* The image used */
-    background-image: url("../images/bg.jpg");
+    background-image: url("../images/bg2.jpeg");
 
     /* Full height */
     height: 100%; 
 
     /* Create the parallax scrolling effect */
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	
 }
 
+#fade1{
+	/*background-color: grey;*/
+	height: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/*background-color: rgba(204, 204, 255, 0.9);*/
+	background-color: rgba(75, 75, 75, 0.9);
+	border-radius: 25px;
 
-#container1{
-	margin-top: 45px;
+	border: 1px solid rgba(75, 75, 75, 0.9);
+	color: #FFFFF0;
+	padding: 30px;
 }
+
+
 
 /*For Landing Contents*/
 #fade{
 	/*background-color: grey;*/
 	height: 100%;
 	margin: auto;
-	background-color: rgba(204, 204, 255, 0.6);
+	/*background-color: rgba(204, 204, 255, 0.9);*/
+	background-color: rgba(75, 75, 75, 0.9);
 	border-radius: 25px;
 
-	border: 1px solid rgba(179, 179, 255, 0.4);
+	border: 1px solid rgba(75, 75, 75, 0.9);
 
 }
 
@@ -81,13 +103,19 @@ html, body{
 #me{
 	height: 100%;
 	width: 100%;
-	border: 2px solid rgba(179, 179, 255, 0.3);
+	border: 2px solid rgba(75, 75, 75, 0.9);
 	border-radius: 100%;
 	
 	
 }
+
+.ref{
+	color: rgb(51, 153, 255);
+}
+
 #joseph{
-	font-size: 18px;
+	font-size: 36px;
+	font-family: 'Pacifico', cursive;
 
 }
 
@@ -96,8 +124,8 @@ html, body{
 }
 
 #logo{
-	max-height: 25px;
-	max-width: 25px;
+	max-height: 75px;
+	max-width: 75px;
 	/*margin-left: 50px;*/
 }
 
@@ -105,15 +133,37 @@ html, body{
 #desc, #myname{
 	margin: 0;
 	text-align: center;
-	color: #364652;
+	color: #FFFFF0;
 }
 
 #expound{
 	text-align: justify;
 	margin-left: 15px;
 	margin-right: 15px;
-	color:  #364652;
+	color:  #FFFFF0;
 }
+
+#expounds{
+	color:  #FFFFF0;
+}
+
+
+.button{
+	background-color: #696969;
+	border: 1px solid #696969;
+}
+
+
+.button:hover{
+	background-color: #FFFFF0;
+	border: 1px solid #FFFFF0;
+	color: #696969;
+}
+
+.site-title{
+	margin-bottom: 15px;
+}
+
 
 .lbl{
 	color:  #364652;
@@ -198,6 +248,7 @@ footer, small{
 	text-align: center;
 	background-color: #0F121C;
 	color: #FFFFFF;
+	padding: 20px;
 }
 
 
