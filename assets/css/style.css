@@ -28,14 +28,19 @@ html, body{
 }
 
 .nav-text:hover{
-	background-color: #FFFFF0;
+	background-color: #778899;
 	border-radius: 10px;
-	padding: 10px;
+	/*padding: 10px;*/
 }
 
 .active{
-	background-color: #FFFFF0;
+	background-color: 	#778899;
 	border-radius: 10px;
+	color:  #696969;
+}
+
+#home, #profile, #projects, #joseph{
+	color: #FFFFF0;
 }
 
 .nav-link{
@@ -43,7 +48,6 @@ html, body{
 	font-weight: bold;
 	/*padding: 5px;*/
 	margin: 5px;
-
 }
 
 #landing{
@@ -116,6 +120,7 @@ html, body{
 #joseph{
 	font-size: 36px;
 	font-family: 'Pacifico', cursive;
+	color: color: #FFFFF0;
 
 }
 
@@ -149,7 +154,7 @@ html, body{
 
 
 .button{
-	background-color: #696969;
+	background-color: 	#778899;
 	border: 1px solid #696969;
 }
 
