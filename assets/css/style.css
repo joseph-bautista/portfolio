@@ -124,6 +124,13 @@ html, body{
 
 }
 
+.bigger{
+	font-size: 15px;
+}
+.smaller{
+	font-size: 12px;
+}
+
 #myname, #job{
 	font-weight: bold;
 }
