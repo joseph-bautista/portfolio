@@ -289,12 +289,34 @@ footer, small{
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 	#fade{
-		margin: auto 10px;
+		/*margin: 100px 10px 50px 10px;*/
+		margin-right: 10px;
+		margin-left: 10px;
+		margin-bottom: 30px;
+		margin-top: 100px;
 	}
 
 	.icon-soc{
 		height: 7px;
 		padding:7px;
+	}
+
+	#index-footer{
+		position: static;
+		bottom: 0;
+		width: 100%;
+	}
+
+	.navbar-toggler{
+		background-color: #393E46;
+	}
+
+	#navbarNav ul{
+		background-color: #222831;
+	}
+
+	.active{
+		background-color: 	#222831;
 	}
 }
 
